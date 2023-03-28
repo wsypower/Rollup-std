@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: wsy
+ * @Date: 2023-03-27 13:05:44
+ * @LastEditTime: 2023-03-28 13:14:15
+ * @LastEditors: wsy
+ */
 export const add = (a: number, b: number): number => a + b
 
 export const multi = (a: number, b: number): number => a * b
@@ -22,11 +29,3 @@ function load(onError: OnError): Promise<unknown> {
     })
   })
 }
-
-load((retry) => {
-  if (retry)
-    retry()
-}).then((res) => {
-  // eslint-disable-next-line no-console
-  console.log(res)
-})
