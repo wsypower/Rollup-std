@@ -6,6 +6,6 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "build": "rollup --c"
+    "build": "rollup -c"
   }
 }
