@@ -1,0 +1,11 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
