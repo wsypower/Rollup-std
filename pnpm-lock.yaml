@@ -32,6 +32,14 @@ importers:
       rollup-plugin-typescript2: 0.34.1_dpenfibtlqpfrulx5rm72ngxhu
       typescript: 5.0.2
 
+  packages/mini-rollup:
+    specifiers:
+      acorn: ^8.8.2
+      magic-string: ^0.30.0
+    devDependencies:
+      acorn: 8.8.2
+      magic-string: 0.30.0
+
 packages:
 
   /@antfu/eslint-config-basic/0.37.0_y7rczx7zuvsmujgglzevd4vf44:
